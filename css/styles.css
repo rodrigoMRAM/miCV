@@ -1,0 +1,41 @@
+.bii{
+    margin-top: 20px!important;
+}
+.container1{
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px!important;
+
+}
+.p-nombre{
+    color: grey;
+    margin-top: 10px;
+}
+.misvg{
+    width: 30px;
+    height: 30px;
+    filter: invert(100%)  saturate(2476%) hue-rotate(86deg) brightness(118%) ;
+}
+.misvg1 {
+    width: 25px;
+}
+.svgestilos{
+    width: 20px;
+}
+.experiencia{
+    display: none;
+    position: absolute;
+    right: -100%;
+}
+.desactivado{
+    display: none;
+}
