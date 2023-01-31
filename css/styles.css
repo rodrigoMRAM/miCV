@@ -31,11 +31,11 @@
 .svgestilos{
     width: 20px;
 }
-.experiencia{
+/* .experiencia{
     display: none;
     position: absolute;
     right: -100%;
-}
+} */
 .desactivado{
     display: none;
 }

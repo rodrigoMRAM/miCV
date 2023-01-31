@@ -5,11 +5,12 @@ const experiencia = document.querySelector(".experiencia");
 const principal= document.querySelector(".principal");
 
 ocultar.addEventListener("click", ()=>{ 
-    principal.classList.toggle("desactivado");
-    experiencia.classList.toggle("experiencia");
+    principal.classList.add("desactivado");
+    experiencia.classList.remove("desactivado");
 })
 
 hide.addEventListener("click",()=>{
-    principal.classList.toggle("desactivado");
+    principal.classList.remove("desactivado");
+    experiencia.classList.add("desactivado")
 })
 
